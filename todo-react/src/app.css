@@ -1,0 +1,194 @@
+body {
+  background: linear-gradient(
+    190deg,
+    rgb(7, 75, 114) 0%,
+    rgb(103, 140, 145) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #222;
+  overflow-y: scroll;
+}
+
+
+.App {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.App h1{
+align-items:center ;
+color: #222;
+font-style:oblique;
+}
+.takeinput{
+  display: flex;
+  justify-content: center;
+}
+.todo-input {
+  min-width: 15rem;
+  width: 40vw;
+  max-height: 2.5rem;
+  background-color: #e1ebfd;
+  border: #222;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  align-self: center;
+}
+.sub-mit{
+  align-items: center;
+  background-color: #0f0f0f;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #f8f6f6;
+  cursor: pointer;
+  display:flex;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 420px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+
+}
+
+.content {
+ display: flex;
+}
+
+#row-rev {
+  flex-direction: row;
+ column-gap: 19px;
+}
+
+.to-dos{
+  align-items: center;
+  background-color: #ced6df;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #0e0d0d;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.com-pleted{
+  align-items: center;
+  background-color: #ced6df;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #0e0d0d;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.de-leted{
+  align-items: center;
+  background-color: #ced6df;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #0e0d0d;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+.cls-card{
+  display: flex;
+  flex-direction: column;
+  background: rgb(219, 220, 223);
+  margin:  1rem;
+  height: 8rem;
+  width: 18rem;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  position: relative;
+}
+.cls-card .text-area{
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #e1ebfd;
+  height: 70%;
+}
+.cls-card .complete{
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
+.cls-card .complete .comp-btn{
+  border-radius: 20%;
+  border: none;
+  margin: 0 0.6rem;
+  font-size: 1.0rem;
+  cursor: pointer;
+  color: #271c6c;
+  background-color: transparent;
+}
+
+.cls-card .delete{
+  position: absolute;
+  bottom: 1rem;
+  right: rem;
+}
+.cls-card .edit{
+  position: absolute;
+  bottom: 1rem;
+  right: 8.3rem
+}
+.cls-card .delete .del-btn{
+  border-radius: 20%;
+  border: none;
+  margin: 0 0.6rem;
+  font-size: 1.0rem;
+  cursor: pointer;
+  color: #271c6c;
+  background-color: transparent;
+}
+
+.cls-card .edit .edit-btn{
+  border-radius: 20%;
+  border: none;
+  margin: 0 0.6rem;
+  font-size: 1.0rem;
+  cursor: pointer;
+  color: #271c6c;
+  background-color: transparent;
+}
